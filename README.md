@@ -16,27 +16,44 @@ http://barath-task-kiaq.s3-website.eu-north-1.amazonaws.com
 
 
 
-
-Enable security
-Web Application Firewall (WAF) Info
-Enable security protections
-Keep your application secure from the most common web threats and security vulnerabilities using AWS WAF. Blocked requests are stopped before they reach your web servers.
-Do not enable security protections
-Select this option if your application does not need security protections from AWS WAF.
-Included security protections
-Protect against the most common vulnerabilities found in web applications.
-Protect against malicious actors discovering application vulnerabilities.
-Block IP addresses from potential threats based on Amazon internal threat intelligence.
+Review and create
+General configuration
+Edit
+Distribution name
+barath-kiaq
+Description
+-
+Billing
+Pay-as-you-go ($0/month)
+Origin
+Edit
+Because you granted CloudFront access to your origin, CloudFront can write and update S3 bucket policies that restrict access to your S3 origin to CloudFront.
+S3 origin
+barath-task-kiaq.s3.eu-north-1.amazonaws.com
+Origin path
+-
+Grant CloudFront access to origin
+Yes
+Enable Origin Shield
+No
+Connection attempts
+3
+Connection timeout
+10
+Cache settings
+Edit
+CloudFront will apply default cache settings tailored to serving content from a S3 origin. You can customize settings after you create your distribution.
+Security
+Edit
+Security protections
+None
 Use monitor mode
-Count how many of your requests would be blocked by this WAF configuration. When ready, you can disable monitor mode to begin blocking requests.
-Protection against Layer 7 DDoS attacks Recommended
-Stops DDoS attacks within seconds. AWS learns your unique application patterns within minutes of activation, accurately distinguishing between attacks and natural traffic surges.
-Price estimate
-This AWS WAF configuration is estimated to cost $14 for 10 million requests/month
+No
+Use existing WAF configuration
+No
 Cancel
 Previous
-Next
-
+Create distribution
 
 
 
