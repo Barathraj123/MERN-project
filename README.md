@@ -14,18 +14,26 @@ http://barath-task-kiaq.s3-website.eu-north-1.amazonaws.com
   ]
 }
 
+Get started
+Connect your websites, apps, files, video streams, and other content to CloudFront. We optimize the performance, reliability, and security for your web traffic.
 
-
-
-
-
-
-
-
-
-
-
-
+Distribution options Info
+Distribution name
+Name will be stored as a tag on the resource. You can change the name, or more tags, later.
+barath-kiaq
+Description - optional
+Distribution type
+Single website or app
+Choose if each website or application will have a unique configuration.
+Multi-tenant architecture - New
+Choose when you have multiple domains that need to share configurations. This is a common architecture for SaaS providers.
+Domain Info
+Route 53 managed domain - optional
+Enter a domain that's already registered with Route 53 in your AWS account. CloudFront will provision a TLS certificate for you. If you have a domain from a different DNS provider, skip this step and configure your domain later.
+Check domain
+Tags - optional
+Cancel
+Next
 
 
 
