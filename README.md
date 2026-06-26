@@ -14,29 +14,28 @@ http://barath-task-kiaq.s3-website.eu-north-1.amazonaws.com
   ]
 }
 
-Get started
-Connect your websites, apps, files, video streams, and other content to CloudFront. We optimize the performance, reliability, and security for your web traffic.
 
-Distribution options Info
-Distribution name
-Name will be stored as a tag on the resource. You can change the name, or more tags, later.
-barath-kiaq
-Description - optional
-Distribution type
-Single website or app
-Choose if each website or application will have a unique configuration.
-Multi-tenant architecture - New
-Choose when you have multiple domains that need to share configurations. This is a common architecture for SaaS providers.
-Domain Info
-Route 53 managed domain - optional
-Enter a domain that's already registered with Route 53 in your AWS account. CloudFront will provision a TLS certificate for you. If you have a domain from a different DNS provider, skip this step and configure your domain later.
-Check domain
-Tags - optional
+
+
+Enable security
+Web Application Firewall (WAF) Info
+Enable security protections
+Keep your application secure from the most common web threats and security vulnerabilities using AWS WAF. Blocked requests are stopped before they reach your web servers.
+Do not enable security protections
+Select this option if your application does not need security protections from AWS WAF.
+Included security protections
+Protect against the most common vulnerabilities found in web applications.
+Protect against malicious actors discovering application vulnerabilities.
+Block IP addresses from potential threats based on Amazon internal threat intelligence.
+Use monitor mode
+Count how many of your requests would be blocked by this WAF configuration. When ready, you can disable monitor mode to begin blocking requests.
+Protection against Layer 7 DDoS attacks Recommended
+Stops DDoS attacks within seconds. AWS learns your unique application patterns within minutes of activation, accurately distinguishing between attacks and natural traffic surges.
+Price estimate
+This AWS WAF configuration is estimated to cost $14 for 10 million requests/month
 Cancel
+Previous
 Next
-
-
-
 
 
 
