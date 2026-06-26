@@ -15,29 +15,10 @@ http://barath-task-kiaq.s3-website.eu-north-1.amazonaws.com
 }
 
 
-kiaq-lap-174@kiaq-lap-174:~$ sudo systemctl status jenkins
-[sudo] password for kiaq-lap-174: 
-● jenkins.service - Jenkins Continuous Integration Server
-     Loaded: loaded (/usr/lib/systemd/system/jenkins.service; enabled; preset: enabled)
-     Active: active (running) since Fri 2026-06-26 09:20:31 IST; 6h ago
-   Main PID: 1328 (java)
-      Tasks: 48 (limit: 9235)
-     Memory: 733.3M (peak: 855.6M)
-        CPU: 1min 56.745s
-     CGroup: /system.slice/jenkins.service
-             └─1328 /usr/bin/java -Djava.awt.headless=true -jar /usr/share/java/jenkins.war --webroot=/var/cache/jenkins/war -->
-
-Jun 26 09:20:30 kiaq-lap-174 jenkins[1328]: 2026-06-26 03:50:30.958+0000 [id=54]        INFO        hudson.util.Retrier#start: >
-Jun 26 09:20:31 kiaq-lap-174 jenkins[1328]: 2026-06-26 03:50:31.049+0000 [id=34]        INFO        jenkins.InitReactorRunner$1>
-Jun 26 09:20:31 kiaq-lap-174 jenkins[1328]: 2026-06-26 03:50:31.254+0000 [id=24]        INFO        hudson.lifecycle.Lifecycle#>
-Jun 26 09:20:31 kiaq-lap-174 systemd[1]: Started jenkins.service - Jenkins Continuous Integration Server.
-Jun 26 09:20:40 kiaq-lap-174 jenkins[1328]: 2026-06-26 03:50:40.049+0000 [id=54]        INFO        h.m.DownloadService$Downloa>
-Jun 26 09:20:42 kiaq-lap-174 jenkins[1328]: 2026-06-26 03:50:42.735+0000 [id=54]        INFO        h.m.DownloadService$Downloa>
-Jun 26 09:20:45 kiaq-lap-174 jenkins[1328]: 2026-06-26 03:50:45.119+0000 [id=54]        INFO        h.m.DownloadService$Downloa>
-Jun 26 09:20:46 kiaq-lap-174 jenkins[1328]: 2026-06-26 03:50:46.979+0000 [id=54]        WARNING        h.m.DownloadService$Down>
-Jun 26 09:20:49 kiaq-lap-174 jenkins[1328]: 2026-06-26 03:50:49.324+0000 [id=54]        INFO        h.m.DownloadService$Downloa>
-Jun 26 09:20:49 kiaq-lap-174 jenkins[1328]: 2026-06-26 03:50:49.325+0000 [id=54]        INFO        hudson.util.Retrier#start: >
-
+Failed to connect to repository : Command "git ls-remote -h -- https://github.com/cloudhostingky-alt/E-flow-InstructorWeb.git HEAD" returned status code 128:
+stdout:
+stderr: remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/cloudhostingky-alt/E-flow-InstructorWeb.git/'
 
 
 
